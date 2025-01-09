@@ -207,6 +207,32 @@ section {
     margin-right: 6px;
 }
 
+.about {
+    height: 100vh; /* Để phần này chiếm toàn bộ chiều cao màn hình */
+    background: #fff;
+    color: #1c4587;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+  
+.about p {
+    font-size: 1.2rem;
+    max-width: 600px;
+}  
+
+html {
+    scroll-behavior: smooth;
+  }  
+
 @media(max-width: 1770px) {
     header {
         padding: 22px 4%;
