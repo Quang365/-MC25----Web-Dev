@@ -9,60 +9,78 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
         <!-- Logo MCC -->
         <a href="/" class="logo">
-            <!-- <img src="assets/"> -->
+            <img src="assets/mcc.png"> <!--TODO: Change the Logo to the original Logo with text-->
         </a>
 
         <!-- Menu -->
         <ul class="navlist">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-
-
-        <div class a="right-content">
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
 
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="hero-text">
             <h5 data-aos="fade-right" data-aos-duration="1400">Welcome to MCC Camp 2025</h5>
             <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200">Join Now</h1>
-            <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Get ready to explore the world of technology and innovation</p>
+            <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
+                MCC CAMP là sự kiện thường niên của Câu lạc bộ Cộng tác viên Minh Khai 
+                nhằm giúp học sinh trong và ngoài trường THPT Nguyễn Thị Minh Khai có cơ hội được trải nghiệm, 
+                tiếp xúc với các kỹ năng tổ chức một buổi hội trại và giao lưu với nhau.
+            </p>
             <div class="main-hero" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="400">
-                <!-- thay # bằng link gg form cũng được, hoặc là làm sql để store data :D-->
+                <!-- TODO: thay # bằng link gg form cũng được, hoặc là làm sql để store data :D-->
                 <a href="#" class="btn">Register</a>
             </div>
         </div>
         <div class="hero-image" data-aos="zoom-in" data-aos-duration="1400">
-            <img src="assets/hero.png">
+            <img src="assets/LogoCamp2.png">
+            <!--TODO: Change to the actual logo pls D:-->
+        </div>
     </section>
     <div class="icons">
         <a href="https://www.facebook.com/clbcongtacvienminhkhai" target="_blank" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="600"><i class="ri-facebook-fill"></i></a>
-        <a href="https://www.instagram.com/mcc._diaree/" target="_blank" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="700"><i class="ri-instagram-fill"></i></a> 
-    </div>
-
-    <div class="scroll" data-aos="zoom-out-down" data-aos-duration="1400" data-aos-delay="550">
-        <a href="about">
-            <i class="ri-scroll-to-bottom-fill"></i>
-            Scroll Down
-        </a>
+        <a href="https://www.instagram.com/mcc._diaree/" target="_blank" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="700"><i class="ri-instagram-fill"></i></a>
+        <a href="https://www.tiktok.com/@mcc.official3" target="_blank" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="800"><i class="ri-tiktok-fill"></i></a> 
     </div>
 
     <section id="about" class="about">
         <h2>About MCC Camp 2025</h2>
         <p>MCC Camp 2025 is an event designed to inspire creativity and innovation among students.</p>
-    </section>    
+    </section>
+
+    <section id="contact" class="contact">
+        <div>
+            <p>
+            THÔNG TIN LIÊN LẠC <br>
+            Email: mcc.clbctvminhkhai@gmail.com 
+            <br><br>
+            Trưởng Ban Tổ chức: Đào Nguyễn Hoàng Tùng <br> 
+            Số điện thoại: 0981470805 <br>
+            Email: tung.dao2005@gmail.com <br><br>
+
+            Phụ trách chính: Nguyễn Duy Tuấn Phong <br> 
+            Số điện thoại: 0848912468 <br>
+            Email: phong.nguyenharu@gmail.com <br>
+            </p>
+        </div>
+        <div class="resizedlogo">
+            <a href="https://www.facebook.com/clbcongtacvienminhkhai" target="_blank" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="600"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/mcc._diaree/" target="_blank" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="700"><i class="ri-instagram-fill"></i></a>
+            <a href="https://www.tiktok.com/@mcc.official3" target="_blank" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="800"><i class="ri-tiktok-fill"></i></a> 
+        </div>
+                
+        </div>
+    </section>
 
     <script src="script.js"></script>
 
