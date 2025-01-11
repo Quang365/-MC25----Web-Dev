@@ -169,16 +169,6 @@ section {
     z-index: 2;
 }
 
-/* .banner .slider:hover{
-    animation-play-state: paused;
-} */
-
-
-.banner .slider.stop {
-    animation-play-state: paused;
-}
-
-
 @keyframes autoRun{
     from{
         transform: perspective(1000px) rotateY(0deg);
@@ -193,6 +183,7 @@ section {
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
         translateZ(550px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
 }
 .banner .slider .item img{
     width: 100%;
@@ -244,25 +235,26 @@ section {
 
 /* About */
 .about {
-    height: 100vh; 
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
+    height: 120vh;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 2fr);
+    padding: 250px;
+    gap: 25px;
 }
-  
-.about h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+.about .hero1 {
+    background-color: red !important;
+    width: 75vh;
 }
-  
-.about p {
-    font-size: 1.2rem;
-    max-width: 600px;
+
+.about .hero2 {
+    background-color: green !important ;
+    width: 75vh;
 }
+
+
+
 
 /* Contact */
 .contact {
